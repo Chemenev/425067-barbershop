@@ -1,6 +1,8 @@
 body {
     font-family: "PT Sans Narrow", "Arial", serif;
 	text-transform: uppercase;
+	padding:0;
+	margin:0;
 }
 h1{
 	font-size: 30px;
@@ -17,3 +19,123 @@ h2{
 a{
 	text-decoration: none;
 }
+/*clearfix*/
+.clearfix::after {
+	content: "";
+    display: table;
+    clear: both;
+}
+.clearf {
+	clear: both;
+	}
+/*header start*/
+.main-header {
+	background-color:#000;
+	}
+.container {
+	background-color: rgba(116, 255, 255, 0.3);
+	width:940px;
+	margin:0 auto;
+	padding: 0 10px;
+}	
+.top-nav {
+	float:left;
+	width: 780px;
+	background-color: #FFFB0A;	
+}
+.top-nav li{
+	display:inline;
+}
+.user-block {
+	float:right;
+	width:140px;
+	background-color: #FFFB0A;	
+}
+/*header end*/
+
+/*main  shop.html start*/
+.main-caption {
+	float:left;
+	min-width: 300px;
+	background-color: #55FFAA;
+	margin:10px 0 20px 0;	
+}
+.main-caption li {
+	display:inline;
+}
+.filter {
+	float:left;
+	width:230px;
+	background-color: #5F7CFF;
+}
+.catalog {
+	float:right;
+	width: 700px;
+	background-color: #FF4B37;
+	margin-bottom:20px;
+}
+.catalog-element {
+	display:inline-block;
+	vertical-align:top;
+	width:220px;
+	height: 286px;
+	background-color:#FFBE28;
+	margin: 10px;
+}
+.catalog-element:nth-child(3n) {
+	margin-right: 0px;
+} 
+.catalog-element:nth-child(3n+1) {
+	margin-left: 0px;
+} 
+.catalog {
+	font-size:0;
+	}
+.catalog-element {
+	font-size: 13px;
+	}
+/*main shop.html end*/
+
+/*main  catalog-element.html start*/
+.product-gallery {
+	float:left;
+	width:460px;
+	background-color: #FF4B37;
+	margin-bottom:20px;
+}
+.description-detail {
+	float:right;
+	width:400px;
+	background-color: #5AFF94;
+}
+.small-photo img {
+	margin: 10px 0;
+}
+
+.small-photo img:nth-child(2) {
+	margin: 10px 15px;
+}
+/*main  catalog-element.html start*/
+
+/*footer end*/
+.main-footer {
+	background-color: #000;
+}
+.footer-contacts {
+	float:left;
+	width:320px;
+	background-color: #FFFB0A;
+	margin:55px 50px 35px 0;
+}
+.footer-social {
+	float:left;
+	width:180px;
+	margin-top:55px;
+}
+.footer-copy {
+	float:right;
+	width:160px;
+	background-color: #FFFB0A;
+	margin-top:55px;
+}
+/*footer end*/

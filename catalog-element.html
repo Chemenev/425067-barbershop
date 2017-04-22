@@ -7,15 +7,14 @@
 	</head>
 	<body>
 		<header class="main-header">
-			<div class="container">
-				<div class="main-logo">
-					<a href="#">
-						<img src="img/Logo-sml.png" alt="Logo">
-					</a>
-				</div>
-			
-				<nav class="top-nav">
+			<div class="container clearfix">
+			<nav class="top-nav">
 					<ul>
+						<li>
+							<a href="#">
+								<img src="img/Logo-sml.png" alt="Logo">
+							</a>
+						</li>
 						<li>
 							<a href="#">Информация</a>
 						</li>
@@ -38,8 +37,9 @@
 				</div>
 			</div>
 		</header>	
-		<main class="container">
-			<h1 class="main-caption">набор для путешествий «Baxter of California»</h1>
+		<main class="container clearfix">
+			<div class="main-caption">
+			<h1>набор для путешествий «Baxter of California»</h1>
 			<nav class="breadcrumb">
 				<ul>
 					<li>
@@ -56,11 +56,14 @@
 					</li>
 				</ul>
 			</nav> 
+			</div>
 			<div class="product-gallery">
 				<img class="big-photo" src="img/detal-tov-big.jpg" alt="Картинка товара 1">
-				<img src="img/detal-tov-1.jpg" alt="Картинка товара 2">
-				<img src="img/detal-tov-2.jpg" alt="Картинка товара 3">
-				<img src="img/detal-tov-3.jpg" alt="Картинка товара 4">
+				<div class="small-photo">
+					<img src="img/detal-tov-1.jpg" alt="Картинка товара 2">
+					<img src="img/detal-tov-2.jpg" alt="Картинка товара 3">
+					<img src="img/detal-tov-3.jpg" alt="Картинка товара 4">
+				</div>	
 			</div>
 			<div class="description-detail">
 				<section class="product-description">
@@ -85,9 +88,9 @@
 					</ul>
 				</section>
 			</div>
-			</main>
+		</main>
 		<footer class="main-footer">
-			<div class="container">
+			<div class="container clearfix">
 				<section class="footer-contacts">
 					Барбершоп «Бородинский»<br>
 					Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
